@@ -10,7 +10,7 @@ function digitPerkalianMinimum(angka) {
         pembagianStr = i.toString() + pembagian.toString()
         
         if (pembagian % 1 === 0) {
-            console.log(pembagianStr.length, 'digitTerkecil')
+            // console.log(pembagianStr.length, 'digitTerkecil')
             if (digitTerkecil === 0) {
                 digitTerkecil = pembagianStr.length
             }

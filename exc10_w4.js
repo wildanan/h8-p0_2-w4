@@ -7,9 +7,9 @@ function changeMe(arr) {
     }else{
         for (var i = 0; i < arr.length; i++) {
             age = arr[i][3]
-            if (age === undefined) {
+            if (age === undefined || age > 2019) {
                 age = 'Invalid Birth Date'
-            }else{
+            }else if (age < 2019){
                 age = 2019 - age
             }
             console.log('1. ' + arr[i][0] + arr[i][1] + ':')
